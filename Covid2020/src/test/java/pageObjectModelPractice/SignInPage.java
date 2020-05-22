@@ -41,6 +41,7 @@ public void signIn() throws InterruptedException {
 	login.sendKeys(p.getProperty("fname")+ p.getProperty("lname")+randomNum()+p.getProperty("domain"));
 	String vo = login.getAttribute("value");
 	System.out.println(vo);
+	System.out.println(vo);
 
 	Password.sendKeys("password");
 	clicking.click();
